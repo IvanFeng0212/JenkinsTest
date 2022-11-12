@@ -6,6 +6,7 @@ namespace JenkinsTest // Note: actual namespace depends on the project name.
     {
         public static void Main()
         {
+            // Git Hook Test
             Console.WriteLine("Hello World!");
         }
     }

@@ -1,17 +1,17 @@
 pipeline {
     agent any
     stages{
-        stage('StageName-Develop Git Clone'){
+        stage('StageName-Git Clone'){
             steps{
                 git 'https://github.com/IvanFeng0212/JenkinsTest.git'
             }
         }
-        stage('StageName-Develop Test'){
+        stage('StageName-Test'){
             steps{
                 echo "Test Complete"
             }
         }
-        stage('StageName-Develop Build'){
+        stage('StageName-Build'){
             steps{
                 echo "Build Complete"
             }
